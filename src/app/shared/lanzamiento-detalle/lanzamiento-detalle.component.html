@@ -1,0 +1,27 @@
+<div class="reg">
+  <div class="col">
+    <div class="reg">
+      <div class="tit">Nombre</div>
+      <div class="dat">{{launch.name}}</div>
+    </div>
+    <div class="reg">
+      <div class="tit">Fecha</div>
+      <div class="dat">{{formatearFecha(launch.isostart)}}</div>
+    </div>
+    <div class="reg">
+      <div class="tit">Cohete</div>
+      <div class="dat">{{launch.rocket.name}}</div>
+    </div>
+    <div class="reg">
+      <div class="tit">Misión</div>
+      <div class="dat">{{launch.missions[0].description}}</div>
+    </div>
+    <div class="reg">
+      <div class="tit">Servicio</div>
+      <div class="dat">{{launch.lsp.name}}</div>
+    </div>
+  </div>
+  <div class="col">
+    <img class="imagen" src="{{launch.rocket.imageURL}}">
+  </div>
+</div>

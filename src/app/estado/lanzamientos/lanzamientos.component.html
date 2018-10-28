@@ -1,0 +1,12 @@
+
+<div class="orden">  
+  <div style="min-width: 200px;color: #9b4dca">Nº LANZAMIENTOS {{launches.length}}</div>
+  <div style="flex-basis:75%"></div>
+  <div>
+    <button (click)="lista('asc')" class="button button-outline">Ordernar ascendente</button>
+  </div>
+  <div>
+    <button (click)="lista('des')" class="button button-outline">Ordernar descendente</button>
+  </div>
+</div>
+<app-lista-lanzamiento [launches]="launches"></app-lista-lanzamiento>

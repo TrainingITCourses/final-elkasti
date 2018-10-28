@@ -1,0 +1,13 @@
+<div class="navbar fixed-top">
+  <img class="home" src="/assets/icons/home.png" (click)="home()">
+
+  <div>{{titulo}} <span >{{ titulo == 'Estados de
+      lanzamientos' ? '(' + numeroLanzamientos + ')' : '' }}</span></div>
+  
+  <div></div>
+
+</div>
+<div flex class="contenido">
+  <router-outlet>
+  </router-outlet>
+</div>

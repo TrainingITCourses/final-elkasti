@@ -1,0 +1,11 @@
+button {
+  padding-left: 16px;
+  margin-left: 16px;
+}
+
+.orden {
+  display:flex; 
+  flex-direction: row;
+   justify-content: flex-end;
+   padding-right: 32px;
+}

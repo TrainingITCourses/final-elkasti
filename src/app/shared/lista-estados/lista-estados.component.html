@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let estado of (estados | async)" (click)="go(estado.id)">
+      <td>{{estado.name}}</td>
+      <td>{{estado.description}}</td>
+    </tr>
+  </tbody>
+</table>

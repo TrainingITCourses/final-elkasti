@@ -1,0 +1,29 @@
+
+.reg {
+  display:flex; 
+  flex-direction: row;
+}
+
+.col {
+  flex-grow: 1; 
+  flex-basis: 50%
+}
+
+.tit {
+  flex-grow: 1; 
+  flex-basis: 50%;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.dat {
+  flex-grow: 1; 
+  flex-basis: 50%;
+  text-align: left;
+  font-weight: 500;
+}
+
+.imagen {
+  max-width: 400px; 
+  padding-left: 32px
+}

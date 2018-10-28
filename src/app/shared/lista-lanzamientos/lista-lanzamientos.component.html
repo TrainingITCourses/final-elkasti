@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let launch of launches" (click)="go(launch.id)">
+      <td>{{formatearFecha(launch.isostart)}}</td>
+      <td>{{launch.name}}</td> 
+    </tr>
+  </tbody>
+</table>
